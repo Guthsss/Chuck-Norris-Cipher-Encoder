@@ -6,5 +6,8 @@ files:
   - name: test/ChuckNorrisTest.java
     learner_created: false
 feedback_link: https://hyperskill.org/projects/293/stages/1537/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 19 Nov 2026 14:01:34 UTC"
 record: -1

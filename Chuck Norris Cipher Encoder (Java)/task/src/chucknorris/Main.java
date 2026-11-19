@@ -7,10 +7,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input string:");
         String input = scanner.nextLine();
-        System.out.println("");
-        char[] inputs = input.toCharArray();
-        for (Character character : inputs) {
-            System.out.print(character + " ");
+        System.out.println("\nThe result:");
+        for (char s : input.toCharArray()) {
+            String binario = String.format("%7s", Integer.toBinaryString(s)).replace(' ', '0');
+
+            System.out.println(s + " = " + binario);
         }
     }
 }
